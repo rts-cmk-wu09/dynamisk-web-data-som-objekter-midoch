@@ -1,0 +1,52 @@
+/*FONTS*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    hsla(280, 100%, 74%, 1) 10%,
+    hsla(193, 90%, 55%, 1) 100%
+  );
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  text-align: start;
+  color: #fff;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
