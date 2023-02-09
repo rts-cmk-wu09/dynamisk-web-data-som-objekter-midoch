@@ -3,11 +3,12 @@ document.querySelector(".person__info").innerHTML = `
   <section>
   <p> Fornavn:
   ${person.persondata.navne.fornavn}
-  </p>
+  </#p>
   <p> Efternavn:
   ${person.persondata.navne.efternavn}
   </p>
 
+  <br>
 
   <p> Køn: 
   ${person.persondata.extra.køn}
@@ -25,6 +26,7 @@ document.querySelector(".person__info").innerHTML = `
   ${person.persondata.extra.børn}
   </p>
 
+  <br>
 
   <p> Vejnavn:
   ${person.persondata.adresse.vejnavn}
@@ -39,7 +41,8 @@ document.querySelector(".person__info").innerHTML = `
   ${person.persondata.adresse.by}
   </p>
 
-  
+  <br>
+
   <p> Telefonnummer:
   ${person.persondata.kontakt.telefonnummer}
   </p>
