@@ -51,8 +51,16 @@ h2 {
 }
 
 .person__info p {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: rgb(64, 64, 64);
   margin-bottom: 0.25em;
+  font-weight: 400;
+}
+
+.p__element {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
