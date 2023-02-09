@@ -14,9 +14,9 @@ let person = {
     },
 
     adresse: {
-      vejnavn: "Hovedgaden",
-      husnummer: "25",
-      postnummer: "3550",
+      vejnavn: "Hovedbanegårdspladsen",
+      husnummer: "11",
+      postnummer: "2250",
       by: "København",
     },
 
