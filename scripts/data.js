@@ -9,8 +9,8 @@ let person = {
     },
 
     navne: {
-      fornavn: "Hans",
-      efternavn: "Hansen",
+      fornavn: "Ch",
+      efternavn: "Jackson",
     },
 
     adresse: {
@@ -21,9 +21,9 @@ let person = {
     },
 
     kontakt: {
-      telefonnummer: "30-75-20-22",
-      email: "HansHansen@gmail.com",
-      hjemmeside: "www.hanshansen.dk",
+      telefonnummer: "+45 30 75 20 22",
+      email: "JacksonTech@gmail.com",
+      hjemmeside: "www.JacksonTechLab.dk",
     },
   },
 };
