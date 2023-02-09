@@ -45,16 +45,14 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   text-align: start;
-  color: #000000;
+  color: whitesmoke;
   margin-bottom: 1em;
   margin-top: 1em;
 }
 
-h3 {
+.person__info p {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
-  text-align: center;
-  color: #096796;
-  margin-bottom: 1em;
-  margin-top: 1em;
+  color: black;
+  margin-bottom: 0.25em;
 }
