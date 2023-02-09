@@ -1,10 +1,53 @@
-let person__navn = document.querySelector("#person .person__navn");
+document.querySelector(".person__info").innerHTML = `
 
-person__navn.textContent = `${person.persondata.navne.fornavn} ${person.persondata.navne.efternavn}`;
+  <section>
+  <p> Fornavn:
+  ${person.persondata.navne.fornavn}
+  </p>
+  <p> Efternavn:
+  ${person.persondata.navne.efternavn}
+  </p>
 
-let person__info = document.querySelector("#person .person__info");
-person.persondata.extra.forEach((element) => {
-  person__info.innerHTML += `<li>${element}</li>`;
-});
 
-person__info.textContent = `${person.persondata.extra.cpr_nummer} ${person.persondata.extra.fødselsdato} ${person.persondata.extra.køn} ${person.persondata.extra.civilstand} ${person.persondata.extra.børn}`;
+  <p> Køn: 
+  ${person.persondata.extra.køn}
+  </p>
+  <p> CPR-Nummer:
+  ${person.persondata.extra.cpr_nummer}
+  </p>
+  <p> Fødselsdato: 
+  ${person.persondata.extra.fødselsdato}
+  </p>
+  <p> Civilstand: 
+  ${person.persondata.extra.civilstand}
+  </p>
+  <p> Børn:
+  ${person.persondata.extra.børn}
+  </p>
+
+
+  <p> Vejnavn:
+  ${person.persondata.adresse.vejnavn}
+  </p>
+  <p> Husnummer:
+  ${person.persondata.adresse.husnummer}
+  </p>
+  <p> Postnummer:
+  ${person.persondata.adresse.postnummer}
+  </p>
+  <p> By:
+  ${person.persondata.adresse.by}
+  </p>
+
+  
+  <p> Telefonnummer:
+  ${person.persondata.kontakt.telefonnummer}
+  </p>
+  <p> Email:
+  ${person.persondata.kontakt.email}
+  </p>
+  <p> Hjemmeside:
+  ${person.persondata.kontakt.hjemmeside}
+  </p>
+  </section>
+`;
