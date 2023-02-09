@@ -1,55 +1,55 @@
 document.querySelector(".person__info").innerHTML = `
 
   <section>
-  <p> Fornavn:
+  <p> <span class="p__element">Fornavn:</span>
   ${person.persondata.navne.fornavn}
   </#p>
-  <p> Efternavn:
+  <p> <span class="p__element">Efternavn:</span> 
   ${person.persondata.navne.efternavn}
   </p>
 
   <br>
 
-  <p> Køn: 
+  <p> <span class="p__element">Køn:</span> 
   ${person.persondata.extra.køn}
   </p>
-  <p> CPR-Nummer:
+  <p> <span class="p__element">CPR-Nummer:</span> 
   ${person.persondata.extra.cpr_nummer}
   </p>
-  <p> Fødselsdato: 
+  <p> <span class="p__element">Fødselsdato:</span> 
   ${person.persondata.extra.fødselsdato}
   </p>
-  <p> Civilstand: 
+  <p> <span class="p__element">Civilstand:</span>  
   ${person.persondata.extra.civilstand}
   </p>
-  <p> Børn:
+  <p> <span class="p__element">Børn:</span> 
   ${person.persondata.extra.børn}
   </p>
 
   <br>
 
-  <p> Vejnavn:
+  <p> <span class="p__element">Vejnavn:</span>
   ${person.persondata.adresse.vejnavn}
   </p>
-  <p> Husnummer:
+  <p> <span class="p__element">Husnummer:</span>
   ${person.persondata.adresse.husnummer}
   </p>
-  <p> Postnummer:
+  <p> <span class="p__element">Postnummer:</span>
   ${person.persondata.adresse.postnummer}
   </p>
-  <p> By:
+  <p> <span class="p__element">By:</span> 
   ${person.persondata.adresse.by}
   </p>
 
   <br>
 
-  <p> Telefonnummer:
+  <p> <span class="p__element">Telefonnummer:</span> 
   ${person.persondata.kontakt.telefonnummer}
   </p>
-  <p> Email:
+  <p> <span class="p__element">Email:</span> 
   ${person.persondata.kontakt.email}
   </p>
-  <p> Hjemmeside:
+  <p> <span class="p__element">Hjemmeside:</span> 
   ${person.persondata.kontakt.hjemmeside}
   </p>
   </section>
